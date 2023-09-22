@@ -1,0 +1,17 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'C# By Examples'
+theme = 'hugo-book'
+
+[markup]
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[params]
+  BookTheme = 'light'
