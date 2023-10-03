@@ -15,3 +15,4 @@ theme = 'hugo-book'
 
 [params]
   BookTheme = 'light'
+  BookToC = false

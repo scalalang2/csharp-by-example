@@ -1,5 +1,6 @@
 ---
 weight: 1
+bookToc: false
 ---
 
 ## Hello World
@@ -51,5 +52,3 @@ Hello, World!
 ```
 
 🌎 🎉 새로운 세계에 오신 것을 환영합니다 
-
-Next Example : [Values](/docs/basics/values/)

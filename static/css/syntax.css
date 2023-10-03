@@ -1,3 +1,21 @@
+.container {
+    max-width: 88rem !important;
+}
+
+/*
+I want book columns to be 2:3 ratio
+
+lets define first flex-even of book columns
+*/
+
+.book-columns .flex-even:first-of-type {
+    flex: 2 1 !important;
+}
+
+.book-columns .flex-even {
+    flex: 3 1 !important;
+}
+
 /* Background */ .bg { background-color: #ffffff; }
 /* PreWrapper */ .chroma { background-color: #ffffff; }
 /* Other */ .chroma .x {  }

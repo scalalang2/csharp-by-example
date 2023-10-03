@@ -2,9 +2,12 @@
 weight: 2
 ---
 
+{{< columns >}}
 ## Values
 
 C#은 string, char, boolean, int 등 다양한 타입을 지원합니다.
+
+<--->
 
 ```csharp
 Console.WriteLine(1 + 2);
@@ -26,5 +29,4 @@ True
 0.5
 Hello
 ```
-
-Next Example : [Variables](/docs/basics/variables/)
+{{< /columns >}}
