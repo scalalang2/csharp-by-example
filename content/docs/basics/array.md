@@ -11,9 +11,9 @@ weight: 8
 {{< columns >}}
 
 <br/>
-배열의 기본적인 선언 및 사용 방법입니다.
+배열의 선언과 사용 방법입니다.
 
-C++과 비슷하군요
+C++과 비슷한데 배열의 크기를 꼭 고정시킬 필요는 없고 컴파일 타임에 결정됩니다.
 
 <--->
 
@@ -32,7 +32,7 @@ Console.WriteLine(arr[0]); // output: 10
 
 <br/>
 
-쉼표를 기준으로 다차원(Multi-dimensional) 배열을 선언하고 사용할 수 있습니다.
+쉼표를 기준으로 **다차원(Multi-dimensional)** 배열을 선언하고 사용할 수 있습니다.
 
 다차원 배열의 원소에 접근할 때, `map[i, j]` 이렇게 이용함에 유의하세요.
 
@@ -102,6 +102,33 @@ map[0][4] = 'O';
 
 // Output: HellO
 Console.WriteLine(string.Join("", map[0])); // 이제 여기서는 map[0] 처럼 0번째 원소에 접근해서 배열을 리턴합니다.
+```
+
+{{< /columns >}}
+
+{{< columns >}}
+
+<br/>
+
+`System.Linq` 네임스페이스는 배열에 다양한 **메서드**를 제공합니다.
+
+배열이 직접 제공하는 메서드는 아니고 기존 클래스를 확장할 수 있는 기능이 있나봅니다.
+
+<--->
+
+```csharp
+using System.Linq;
+
+int[] arr = {1,4,7,3,2,4,1};
+
+Console.WriteLine($"sum: {arr.Sum()}"); // 22
+Console.WriteLine($"avg: {arr.Average()}"); // 3.1428..
+Console.WriteLine($"min: {arr.Min()}"); // 1
+Console.WriteLine($"max: {arr.Max()}"); // 7
+
+// slice 처럼 이용
+// output: 7 3 
+Console.WriteLine(string.Join(" ", arr.Skip(2).Take(2).ToList())); 
 ```
 
 {{< /columns >}}
