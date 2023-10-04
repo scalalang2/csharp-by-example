@@ -21,12 +21,27 @@ Console.WriteLine($"{id}.");
 Console.WriteLine(height + "m.");
 Console.WriteLine($"{(isMarried ? "married" : "not married")}.");
 Console.WriteLine($"{age + 1}");
+// output:
+// DoHyeon.
+// 1.8m.
+// not married.
+// 30
+```
+{{< /columns >}}
+
+{{< columns >}}
+
+<br/>
+
+`var` 키워드를 이용해서 컴파일러가 타입을 추론하도록 할 수 있습니다.
+
+대체 이 언어의 컨셉은 뭘까요?
+
+<--->
+
+```csharp
+var greeting = "Hello World!";
+Console.WriteLine(greeting); // output: Hello, World!
 ```
 
-```shell
-DoHyeon.
-1.8m.
-not married.
-30
-```
 {{< /columns >}}
