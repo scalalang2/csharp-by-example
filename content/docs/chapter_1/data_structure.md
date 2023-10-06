@@ -141,9 +141,7 @@ Console.WriteLine(names.Count);  // output: 2
 
 <br/>
 
-`Enqueue` 함수로 값을 추가하고 `Dequeue` 함수로 값을 빼옵니다.
-
-일단, 중요한 건 이런 자료구조를 기본으로 제공한다는 거죠
+`Enqueue` & `Dequeue` 두 가지 연산으로 큐를 이용합니다.
 
 <--->
 
@@ -172,9 +170,9 @@ while (queue.Count > 0)
 
 큐와 비슷하게 `Enqueue`, `Dequeue` 함수를 이용합니다.
 
-Generic 타입의 첫번째로는 값을 두번째로는 우선순위 타입을 결정하고요.
+`PriorityQueue<Value, Priority>` 형태로 선언하는데, Value는 값을 의미하고 Priority는 우선순위를 의미합니다.
 
-낮은 값을 기준으로 먼저 나옵니다. 힙으로 구현되어서 연산마다 시간복잡도는 O(logN)입니다.
+우선순위 값이 낮은 값을 기준으로 먼저 나옵니다. 
 
 <--->
 
@@ -190,7 +188,6 @@ while (queue.Count > 0) {
     var task = queue.Dequeue();
     Console.WriteLine($"Task: {task}");
 }
-
 ```
 
 {{< /columns >}}
