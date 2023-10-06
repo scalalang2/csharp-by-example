@@ -32,7 +32,7 @@ Console.WriteLine(DateTime.Now.ToString("yyyy-M-dd hh:mm:ss"));
 
 <br/>
 
-`TimeSpan` 은 시간 간격(Interval)을 표현하는 객체이고, Duration 등을 표현할 때 사용합니다.
+`TimeSpan` 은 Interval 혹은 Duration을 표현하는 객체입니다.
 
 사칙연산으로 DateTime 객체에 더하거나 뺄 수 있습니다.
 
