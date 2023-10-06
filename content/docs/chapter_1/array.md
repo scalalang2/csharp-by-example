@@ -132,3 +132,27 @@ Console.WriteLine(string.Join(" ", arr.Skip(2).Take(2).ToList()));
 ```
 
 {{< /columns >}}
+
+{{< columns >}}
+
+<br/>
+
+배열을 특정 값으로 채우고 싶을 때가 있습니다.
+
+<--->
+
+```csharp
+int[] arr = new int[5];
+Array.Fill(arr, int.MaxValue);
+// output: 2147483647 2147483647 2147483647 2147483647 2147483647
+Console.WriteLine(string.Join(" ", arr));
+```
+
+혹은
+
+```csharp
+var arr = Enumerable.Repeat(int.MaxValue, 5).ToArray();
+Console.WriteLine(string.Join(" ", arr));
+```
+
+{{< /columns >}}
