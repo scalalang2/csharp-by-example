@@ -47,3 +47,21 @@ Console.WriteLine(dt3.DayOfWeek); // Thursday
 ```
 
 {{< /columns >}}
+
+{{< columns >}}
+
+<br/>
+
+`Parse` 함수로 문자열을 DateTime 객체로 변환합니다.
+
+<--->
+
+```csharp
+var dt = DateTime.Parse("2023-10-06 11:24:20");
+Console.WriteLine(dt.ToLongDateString());
+Console.WriteLine(dt.ToShortDateString());
+Console.WriteLine(dt.ToLongTimeString());
+Console.WriteLine(dt.ToShortTimeString());
+```
+
+{{< /columns >}}
