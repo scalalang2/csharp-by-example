@@ -4,11 +4,13 @@ type: docs
 ---
 
 ## C# by Example
-[C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)은 강력한 객체 지향 프로그래밍 언어로 간단한 명령형 커맨드부터 게임 서버, 웹 서버, 분산 시스템, 게임 등 다양한 분야에서 사용할 수 있는 범용성을 가지고 있습니다
+[C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/) is a very powerful object-oriented programming language that can be used in a variety of fields, from simple command-line commands to game servers, web servers, distributed systems and so on.
 
-__C# by Example__ 은 [Go by Example](https://gobyexample.com/)에 감명을 받아 제작되어있으며, 예제 중심으로 C#의 문법을 빠르게 소개하기 위해 작성되었습니다
+This is not a complete guide, but rather a collection of examples that will help you to understand the basics of the language and to start writing your own programs.
 
-## 참고사항
-- 편안한 마음으로 작성했습니다
-- .NET 7.0 버전을 기준으로 작성했습니다
-- 프로그래밍 뉴비에게 불친절한 문서입니다
+I'm inspired by the [Go by example](https://gobyexample.com/).
+
+## Notes:
+- Written in a casual tone
+- Based on .NET 7.0
+- Not beginner-friendly
