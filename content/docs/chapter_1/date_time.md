@@ -3,18 +3,15 @@ weight: 15
 ---
 
 ## Date Time
-
-프로그래밍 하면서 시간을 다루는 일이 많죠.
-
 {{< columns >}}
 
 <br/>
 
-`DateTime` 객체를 이용합니다.
+`DateTime` object represents a point in time.
 
-비교 연산 및 사칙연산을 지원합니다.
+It supports comparison and arithmetic operations.
 
-`ToString` 으로 포맷팅을 합니다.
+You can format it with `ToString` method.
 
 <--->
 
@@ -32,9 +29,9 @@ Console.WriteLine(DateTime.Now.ToString("yyyy-M-dd hh:mm:ss"));
 
 <br/>
 
-`TimeSpan` 은 Interval 혹은 Duration을 표현하는 객체입니다.
+`TimeSpan` object represents a time interval or duration.
 
-사칙연산으로 DateTime 객체에 더하거나 뺄 수 있습니다.
+You can add or subtract TimeSpan object to DateTime object.
 
 <--->
 
@@ -52,7 +49,7 @@ Console.WriteLine(dt3.DayOfWeek); // Thursday
 
 <br/>
 
-`Parse` 함수로 문자열을 DateTime 객체로 변환합니다.
+`Parse` function converts a string to a DateTime object.
 
 <--->
 

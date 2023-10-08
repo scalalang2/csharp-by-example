@@ -28,7 +28,7 @@ Console.WriteLine(Add(1, 2));
 
 <br/>
 
-리턴할 게 없으면 `void` 타입으로 선언합니다.
+**void** means that the method does not return a value.
 
 <--->
 
@@ -47,7 +47,9 @@ Greeting("scalalang2");
 
 <br/>
 
-**void** means that the method does not return a value.
+The **Swap** methods below do not work as expected. 
+
+Because the parameters are passed by value, sometimes this is called **Call by Value**
 
 <--->
 

@@ -4,12 +4,13 @@ weight: 7
 
 ## Switch
 
-`switch` 구문은 다수의 조건을 평가하고 실행 구문을 결정하는데 이용합니다.
+Switch statements are used to evaluate multiple conditions and determine the code to execute.
 
 {{< columns >}}
 
 <br/>
-가장 기본적인 `switch` 구문의 형태입니다.
+
+This is the basic form of a switch statement.
 
 <--->
 
@@ -44,12 +45,7 @@ switch (op) {
 
 <br/>
 
-함수형 언어에서 자주 나오는 `패턴 매칭(Pattern Matching)` 을 이용할 수 있습니다.
-
-패턴 매칭 종류도 여러개가 있는데, **너가 뭘 좋아할지 몰라서 다 준비했어** 느낌으로 별게 다 구현되어 있습니다.
-
-Java가 기본적으로는 객체 지향 언어이지만 함수형 느낌을 내기 위해 조미료가 추가된 것 처럼 C#도 비슷합니다.
-
+In C#, pattern matching is supported in switch statements.
 <--->
 
 ```csharp
@@ -73,7 +69,7 @@ Console.WriteLine(result); // output: 6
 
 <br/>
 
-관계 연산자 `<`, `>`, `<=`, `>=` 를 사용할 수 있습니다.
+Relational operators can be used in switch statements to compare a value to a constant.
 
 <--->
 
@@ -100,7 +96,7 @@ switch (temp) {
 
 <br/>
 
-`or`, `and` 등의 논리 연산자를 사용할 수 있습니다.
+Logical operators can also be used in switch statements.
 
 <--->
 
