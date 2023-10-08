@@ -6,9 +6,9 @@ bookToc: false
 {{< columns >}}
 ## Variables
 
-변수 선언은 타입명 다음에 변수명을 적습니다.
+Variable declaration is written with the type name followed by the variable name.
 
-출력할 때 `$ sign`을 이용하면 문자열 안에 변수를 사용할 수 있습니다.
+You can use **$ sign** to use variables in a **string**.
 
 <--->
 ```csharp
@@ -33,15 +33,15 @@ Console.WriteLine($"{age + 1}");
 
 <br/>
 
-`var` 키워드를 이용해서 컴파일러가 타입을 추론하도록 할 수 있습니다.
-
-대체 이 언어의 컨셉은 뭘까요?
-
+The compiler automatically infers the type of the variable with the `var` keyword.
 <--->
 
 ```csharp
-var greeting = "Hello World!";
-Console.WriteLine(greeting); // output: Hello, World!
+// compiler infers type of greeting as string
+var greeting = "Hello World!"; 
+
+// output: Hello, World!
+Console.WriteLine(greeting); 
 ```
 
 {{< /columns >}}

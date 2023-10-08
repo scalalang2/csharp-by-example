@@ -4,13 +4,13 @@ weight: 11
 
 ## Methods
 
-객체지향 언어에선 객체에 속한 함수를 `메서드(Method)` 라는 이름으로 부릅니다.
+In object-oriented languages, functions belonging to an object are called **Methods**. You can think of it like a function like other programming language.
 
 {{< columns >}}
 
 <br/>
 
-리턴할 타입을 선언하고 `메서드명(파라미터)` 형태로 선언합니다.
+The method declaration specifies return type, method name, and parameters.
 
 <--->
 
@@ -47,7 +47,7 @@ Greeting("scalalang2");
 
 <br/>
 
-`Value 타입`의 변수를 메서드의 파라미터로 넘기면 Call-by-value로 동작합니다. 
+**void** means that the method does not return a value.
 
 <--->
 
@@ -73,7 +73,7 @@ Console.WriteLine("x:{0}, y:{1}", x, y); // x:10, y:25
 
 <br/>
 
-Call-by-reference로 동작하게 하려면 `ref` 키워드를 사용합니다.
+To make it work as call-by-reference, use the **ref** keyword.
 
 <--->
 

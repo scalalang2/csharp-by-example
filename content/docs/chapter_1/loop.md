@@ -5,9 +5,10 @@ weight: 5
 ## Loop
 {{< columns >}}
 </br>
-while 문은 일단 조건부터 확인하고 반복해서 반복해서 실행할 지 결정 합니다.
 
-먼저, 코드부터 실행하고 다음에 조건을 확인하는 `do ~ while` 문법도 있습니다.
+The while statement first checks the condition to determine whether to repeat the loop.
+
+There is also the **do ~ while** syntax that first executes the code and then checks the condition.
 
 <--->
 
@@ -31,7 +32,8 @@ $ dotnet run
 
 {{< columns >}}
 <br />
-for loop 를 이용해서 동일한 출력을 만듭니다.
+
+for loop is an statement that repeats the code while the condition is true.
 
 <--->
 
@@ -45,7 +47,8 @@ for (int i = 0; i < 5; i++) {
 
 {{< columns >}}
 <br />
-C++과 마찬가지로 괄호가 없으면 다음에 나오는 코드 한 줄을 for 구문의 body 로 인식하는군요
+
+Like C++, if there are no parentheses, the next line of code is recognized as the body of the for statement.
 
 <--->
 
@@ -68,22 +71,23 @@ End
 
 {{< columns >}}
 <br/>
-a부터 z까지 출력하는 것도 됩니다.
+
+This example prints the alphabet from a to z.
+
 <--->
+
 ```csharp
+// output: abcdefghijklmnopqrstuvwxyz
 for (char c = 'a'; c <= 'z'; c++) {
     Console.Write(c);
 }
-```
-```sh
-$ dotnet run 
-abcdefghijklmnopqrstuvwxyz
 ```
 {{< /columns >}}
 
 {{< columns >}}
 <br/>
-foreach 문은 배열이나 리스트의 모든 요소를 순회할 때 사용합니다.
+
+The foreach statement is used to iterate over all elements of an array or list.
 
 <--->
 

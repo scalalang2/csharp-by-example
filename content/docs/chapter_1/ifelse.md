@@ -4,49 +4,50 @@ weight: 6
 
 ## If/Else
 
-If/Else 구문은 프로그램의 흐름을 제어하는데 이용합니다.
+If/Else statements are used to control the flow of a program.
 
 {{< columns >}}
 <br/>
-가장 기본적인 If/Else 구문 활용입니다.
+
+This is the most basic usage of if/else statement.
+
 <--->
+
 ```csharp
 double temp = 13.0;
+
+// output: It's cold
 if (temp < 20.0) {
-    Console.WriteLine("추워요");
+    Console.WriteLine("It's cold");
 } else {
-    Console.WriteLine("살만하군");
+    Console.WriteLine("hmm, not bad.");
 }
-```
-```
-$ dotnet run
-추워요
 ```
 {{< /columns >}}
 
 {{< columns >}}
 <br />
 
-`else if` 로 여러 조건을 동시에 확인합니다. 
+The else if statement allows you to check multiple conditions at the same time.
 
-요즘 MZ세대의 언어들은 세미콜론`;`, 소괄호`(`,`)`, 중괄호`{`,`}` 를 생략해도 되는 경우가 있는데 C#은 클래식한 늘 먹던 그 맛이군요.
+Some modern languages allow you to omit semicolons, parentheses, and curly braces, but C# is a classic language that requires them.
 
 <--->
 
 ```csharp
 char ch = 'a';
 if (char.IsUpper(ch)) {
-    Console.WriteLine($"{ch}는 대문자군요");
+    Console.WriteLine($"{ch} is an uppercase letter.");
 } else if (char.IsLower(ch))  {
-    Console.WriteLine($"{ch}는 소문자군요");
+    Console.WriteLine($"{ch} is a lowercase letter.");
 } else if (char.IsDigit(ch)) {
-    Console.WriteLine($"{ch}는 숫자군요");
+    Console.WriteLine($"{ch} is a digit.");
 } else {
-    Console.WriteLine($"{ch}는 뭐죠?");
+    Console.WriteLine($"{ch}, what is it?");
 }
 ```
 ```sh
 $ dotnet run
-a는 소문자군요
+a is a lowercase letter.
 ```
 {{< /columns >}}
