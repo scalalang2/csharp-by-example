@@ -5,7 +5,7 @@ weight: 2
 {{< columns >}}
 ## Values
 
-C#은 string, char, boolean, int 등 다양한 타입을 지원합니다.
+C# supports a variety of types, including string, char, boolean, int, and so on.
 
 <--->
 

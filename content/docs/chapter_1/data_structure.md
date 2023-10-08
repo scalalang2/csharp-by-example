@@ -4,15 +4,15 @@ weight: 12
 
 ## List
 
-List는 동적인 크기를 가진 선형 자료구조를 말합니다. C#에서는 `List<T>` 클래스를 사용합니다.
+List is a dynamic size linear data structure. In C#, we use `List<T>` class.
 
 {{< columns >}}
 
 <br />
 
-`Add` 함수로 값을 추가하고 `Remove` 함수로 특정 값을 제거합니다.
+`Add` function is used to add a value to the list, and `Remove` function is used to remove a specific value.
 
-`FindAll` 함수로 특정 조건에 맞는 값을 찾을 수 있는데, MZ세대의 언어 답게 람다식을 지원합니다.
+`FindAll` function can be used to find values that meet certain conditions, and as a language of the **MZ generation**, it supports lambda expressions.
 
 <--->
 
@@ -36,19 +36,17 @@ debug(number); // output: 1 2 4
 
 ## Dictionary
 
-Dictionary는 키-밸류 자료구조입니다.
-
-내부적으로 해시테이블로 구현되어 있으며 선언할 때 타입을 명시합니다.
+Dictionary is a key-value data structure, In some other languages, it's called a map, HashMap, or HashTable.
 
 {{< columns >}}
 
 <br/>
 
-객체를 생성할 때 타입을 명시합니다. 
+You need to declare a type for the key and the value `Dictionary<Key, Value>`.
 
-`Add` 함수로 값을 추가합니다.
+You can put a value in the dictionary by using the `Add` function.
 
-`<var>[<key>]` 문법으로 키에 저장된 데이터를 불러옵니다.
+You can access the value as same way as an array.
 
 <--->
 
@@ -66,7 +64,7 @@ Console.WriteLine(dict["k1"]); // output: hello
 
 <br/>
 
-`<var>[<key>] = <value>` 형태로 데이터를 추가하고 수정할 수 있습니다.
+You can add and modify data in the form of `dict[key] = value`.
 
 <--->
 
@@ -86,7 +84,7 @@ Console.WriteLine(dict["k1"]); // output: halo
 
 <br/>
 
-존재하지 않는 키에 접근하면 예외를 발생합니다.
+An error occurs when you try to access a key that does not exist.
 
 <--->
 
@@ -107,15 +105,14 @@ try {
 ---
 
 ## Stack
-스택은 선입후출(First-In Last-Out)의 자료구조이죠.
 
-가끔 필요할 때가 있습니다.
+Stack is a data structure that follows the rule of First-In Last-Out.
 
 {{< columns >}}
 
 <br/>
 
-`Push` 함수로 값을 추가하고 `Pop` 함수로 값을 빼옵니다.
+The **Push(value)** function adds a value to the top of a stack, and the **Pop()** function removes the value at the top of the stack.
 
 <--->
 
@@ -135,13 +132,13 @@ Console.WriteLine(names.Count);  // output: 2
 ---
 
 ## Queue
-큐는 선입선출(First-In First-Out)의 자료구조입니다.
+Queue is a data structure that follows the rule of First-In First-Out.
 
 {{< columns >}}
 
 <br/>
 
-`Enqueue` & `Dequeue` 두 가지 연산으로 큐를 이용합니다.
+The queue supports two fundamental operations **Enqueue** and **Dequeue**.
 
 <--->
 
