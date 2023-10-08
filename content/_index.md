@@ -14,3 +14,7 @@ I'm inspired by the [Go by example](https://gobyexample.com/).
 - Written in a casual tone
 - Based on .NET 7.0
 - Not beginner-friendly
+
+## Links
+- [Github](https://github.com/scalalang2/csharp-by-example)
+    - If you want to provides a better example, fix a typo, or someting else, please send a pull request 😊
