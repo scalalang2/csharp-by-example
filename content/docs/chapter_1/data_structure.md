@@ -159,17 +159,16 @@ while (queue.Count > 0)
 ---
 
 ## Priority Queue
-우선순위 큐는 우선순위가 높은 데이터가 먼저 나오는 자료구조이구요 보통 힙(heap)으로 구현합니다.
+
+Priority Queue is a data structure that the data with higher priority comes out first.
 
 {{< columns >}}
 
 <br/>
 
-큐와 비슷하게 `Enqueue`, `Dequeue` 함수를 이용합니다.
+There are two fundamental operations **Enqueue** and **Dequeue**.
 
-`PriorityQueue<Value, Priority>` 형태로 선언하는데, Value는 값을 의미하고 Priority는 우선순위를 의미합니다.
-
-우선순위 값이 낮은 값을 기준으로 먼저 나옵니다. 
+It's declared in the form of `PriorityQueue<Value, Priority>`, where Value is the value and Priority is the priority.
 
 <--->
 
