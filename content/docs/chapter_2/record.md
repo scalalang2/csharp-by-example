@@ -6,7 +6,7 @@ weight: 4
 
 In kotlin, `data class` is a class used to only hold data, sometimes It's called a **POJO** or **DTO(Domain Transfer Object)**.
 
-C# also provides similar feature, It's called `record` type.
+C# also provides similar feature with `record` type.
 
 Record type has following characteristics:
 - Immutable

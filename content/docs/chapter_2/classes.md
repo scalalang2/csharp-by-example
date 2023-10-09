@@ -58,7 +58,7 @@ p2.Greetings();
 
 <br/>
 
-Static class is used to represents the concept is a singleton object.
+The **static class** is used to represents that the concept is a singleton object.
 
 The static class is not allowed to create objects, It can only contain static fields and methods.
 
