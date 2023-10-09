@@ -145,7 +145,7 @@ Console.WriteLine(emp.toString());
 
 <br />
 
-You can't access a field of a struct if it has private accessibility.
+You can't access a field of a struct if it has **private** access modifier.
 
 <--->
 
