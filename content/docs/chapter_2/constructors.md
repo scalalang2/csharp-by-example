@@ -3,7 +3,9 @@ weight: 6
 ---
 
 ## Constructor
-Constructors are methods with the same name as the class. They are used to initialize the state of an object and they works with the `new` keyword.
+Constructors are methods with the same name as the class. 
+
+They are used to initialize the state of an object and they works with the `new` keyword.
 
 {{< columns >}}
 
