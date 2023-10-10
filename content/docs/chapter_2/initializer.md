@@ -7,7 +7,7 @@ weight: 7
 
 <br/>
 
-You can initialize an object without constructors.
+You can set fields of an object without defining multiple constructors.
 
 <--->
 
