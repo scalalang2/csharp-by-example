@@ -57,29 +57,51 @@ class Program
 
 <br/>
 
-`_title` field is private and hidden and it can only be accessed through the `Title` property. This is called **encapsulation**.
+The `_x` and `_y` fields are private and hidden and they can only be accessed through the `X` and `Y` properties. This is called **encapsulation**.
+
+Moreover, When invalid value is given to update the position, an exception is thrown.
 
 <--->
 
 ```cs
-public class Post
+public class Vehicle
 {
-    private string _title;
+    private int _x = 0;
+    private int _y = 0;
 
-    public string Title
+    public int X
     {
-        get { return _title; }
-        set { _title = value; }
+        get => _x;
+        set
+        {
+            if (value < 0)
+                throw new ArgumentException("invalid position");
+            _x = value;
+        }
+    }
+    
+    public int Y
+    {
+        get => _y;
+        set
+        {
+            if (value < 0)
+                throw new ArgumentException("invalid position");
+            _y = value;
+        }
     }
 }
-
 public class Program
 {
     public static void Main(string[] args)
     {
-        var post = new Post();
-        post.Title = "Hello World!";
-        Console.WriteLine(post.Title);
+        var car = new Vehicle();
+        car.X = 10;
+        Console.WriteLine(car.X);
+        Console.WriteLine(car.Y);
+
+        // this will throw an exception
+        car.X = -1;
     }
 }
 ```
