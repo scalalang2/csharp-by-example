@@ -7,6 +7,8 @@ The Task is a high-level abstraction of a Thread, it is a unit of work that exec
 
 It's first introduced in the .NET framework 4.
 
+You will be familar If you've experienced the Promise pattern in Javascript.
+
 {{< columns >}}
 
 <br/>
