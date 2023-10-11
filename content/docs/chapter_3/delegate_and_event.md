@@ -3,7 +3,7 @@ weight: 3
 ---
 
 ## Delegate and Event
-You can think of **a delegate is a variable that holds a method**.
+**A delegate is a variable that holds methods(functions)**.
 
 {{< columns >}}
 
@@ -117,8 +117,7 @@ Publisher and Subscriber model is a common example of using delegate and event.
 
 <br />
 
-I would like to show you that when member is joined to a chat room,
-the chat room notifies all the members that a new member is joined.
+When new member is joined to a chat room, it notifies all room members that a new member is joined.
 
 <--->
 
