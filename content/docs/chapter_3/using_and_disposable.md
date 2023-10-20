@@ -16,6 +16,8 @@ The primary goal of `IDisposable` interface is to release unmanaged interface. s
 
 {{< columns >}}
 
+<br />
+
 This program prints out following messages.
 
 ```
@@ -28,7 +30,7 @@ As shown in the example, the `Dispose` method of Logger class is called automati
 
 If the using keyword is removed, the Dispose method will not be called automatically, and the unmanaged resources will not be released until the garbage collector collects the Logger object.
 
-<br />
+<--->
 
 ```cs
 using System.Runtime.CompilerServices;
